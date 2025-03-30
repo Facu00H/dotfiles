@@ -4,12 +4,12 @@ Este repositorio contiene mi configuración personal para mi entorno de desarrol
 
 ## Requisitos
 
-- **Linux** (mi entorno principal es Parrot con BSPWM)
-- **zsh** como shell
-- **Neovim** (con configuración de NvChad)
-- **Git** para gestión de versiones
-- **Tmux** para manejo de sesiones
-- Otros programas según se detalla abajo
+- **Parrot Linux** Como sistema operativo.
+- **zsh** como shell.
+- **Neovim** (con configuración de NvChad).
+- **Git** para gestión de versiones.
+- **Tmux** para manejo de sesiones.
+- Otros programas según se detalla abajo.
 
 ## Instalación
 
@@ -39,7 +39,7 @@ Este comando crea enlaces simbólicos a los archivos de configuración en las ub
 Dependiendo de tus herramientas y programas, es posible que necesites instalar algunas dependencias adicionales. Puedes usar tu gestor de paquetes para instalarlas. Algunas de las más comunes son:
 
 ```bash
-sudo pacman -S zsh neovim tmux git stow
+sudo apt install zsh neovim tmux git stow
 ```
 
 ### Personalización
