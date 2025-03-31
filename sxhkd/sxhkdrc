@@ -118,4 +118,31 @@ super + alt + {Left,Down,Up,Right}
 
 # Open Firefox
 super + alt + f
-	/usr/bin/firefox	
+	/usr/bin/firefox
+
+# manage
+
+XF86MonBrightnessUp
+  brightnessctl s +10%
+
+XF86MonBrightnessDown
+  brightnessctl s 10%-
+
+XF86AudioRaiseVolume
+  pactl set-sink-volume @DEFAULT_SINK@ +10%
+
+XF86AudioLowerVolume
+  pactl set-sink-volume @DEFAULT_SINK@ -10%
+
+XF86AudioMute
+  pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+XF86AudioPlay
+  playerctl play-pause
+
+XF86AudioNext
+  playerctl next
+
+XF86AudioPrev
+  playerctl previous
+
